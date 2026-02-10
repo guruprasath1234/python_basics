@@ -61,11 +61,15 @@
 #-----------------------------------------------
 #set
 
-set = {1, 2, 3, 4, 5}
-abc = {'a','n','a','a'} 
-print(set)
-print(abc)
+# set = {1, 2, 3, 4, 5}
+# abc = {'a','n','a','a'} 
+# print(set)
+# print(abc)
 
 #-----------------------------------------------
+#dictionary
+
+dict = {"key1": "value1", "key2": "value2"}
+print(dict["key1"])
 
 

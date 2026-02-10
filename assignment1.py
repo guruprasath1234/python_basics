@@ -77,16 +77,16 @@
 
 #-------------------------------------
 
-n = int(input("Enter number of rows: "))
+# n = int(input("Enter number of rows: "))
 
-for i in range(1, n+1):
-    spaces = n - i
-    stars = 2*i - 1
-    print("   " * spaces + " * " * stars)
-    if spaces == 0:
-        stars=1 
-        for j in range(1, n+1):
-            print("   " * spaces + " * " * stars)
+# for i in range(1, n+1):
+#     spaces = n - i
+#     stars = 2*i - 1
+#     print("   " * spaces + " * " * stars)
+#     if spaces == 0:
+#         stars=1 
+#         for j in range(1, n+1):
+#             print("   " * spaces + " * " * stars)
 
 # #--------------------------------------
 
@@ -99,16 +99,16 @@ for i in range(1, n+1):
 
 #--------------------------------------
 
-# num = int(input("Enter number: "))
-# temp = num
-# rev = 0
+num = int(input("Enter number: "))
+temp = num
+rev = 0
 
-# while num > 0:
-#     rem = num % 10
-#     rev = rev * 10 + rem
-#     num = num // 10
+while num > 0:
+    rem = num % 10
+    rev = rev * 10 + rem
+    num = num // 10
 
-# if temp == rev:
-#     print("Palindrome number")
-# else:
-#     print("Not a palindrome")
+if temp == rev:
+    print("Palindrome number")
+else:
+    print("Not a palindrome")

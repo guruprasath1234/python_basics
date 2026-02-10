@@ -40,11 +40,68 @@
 
 #-----------------------
 
-num = 0
-while num >= 0:
-    num = int(input("Enter a number: "))
-print("negative number")
+# num = 0
+# while num >= 0:
+#     num = int(input("Enter a number: "))
+# print("negative number")
 
 #-----------------------
 
+# try:
+#     num = int(input("Enter a number: "))
+#     print("You entered:", num)
+
+# except ValueError:
+#     print("Error: Please enter a valid numeric value.")
+
+#-------------------------------------
+
+# try:
+#     a = int(input("Enter first number: "))
+#     b = int(input("Enter second number: "))
+
+#     result = a / b
+#     print("Result:", result)
+
+# except ValueError:
+#     print("Error: Please enter only numbers.")
+
+# except ZeroDivisionError:
+#     print("Error: Cannot divide by zero.")
+
+#-------------------------------------
+
+# correct_pin = "1234"
+# attempts = 0
+
+# while attempts < 3:
+#     pin = input("Enter PIN: ")
+
+#     if pin == correct_pin:
+#         print("Access Granted")
+#         break
+#     else:
+#         print("Wrong PIN")
+#         attempts += 1
+
+# if attempts == 3:
+#     print("Account Locked")
+
+#-------------------------------------
+
+# try:
+#     num = int(input("Enter a number: "))
+
+#     if num < 0:
+#         raise ValueError("Negative number entered")
+
+#     print("You entered:", num)
+
+# except ValueError as e:
+#     print("Error:", e)
+
+# finally:
+#     print("Program Executed")
+
+#-------------------------------------  
 
