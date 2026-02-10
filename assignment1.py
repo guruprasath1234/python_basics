@@ -84,7 +84,6 @@ for i in range(1, n+1):
     stars = 2*i - 1
     print("   " * spaces + " * " * stars)
     if spaces == 0:
-        sp
         stars=1 
         for j in range(1, n+1):
             print("   " * spaces + " * " * stars)
