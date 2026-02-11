@@ -22,10 +22,12 @@ def sum_of_list(numbers):
     for num in numbers:
         total += num
     return total        
-numbers = [1, 2, 3, 4, 5]
+numbers = list(map(float, input("Enter numbers separated by spaces: ").split()))
 result = sum_of_list(numbers)
 print("Sum of list elements:", result)
 
 #---------------------------------------
+
+
 
 
