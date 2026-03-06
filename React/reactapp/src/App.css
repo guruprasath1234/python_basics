@@ -1,0 +1,115 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Animated Gradient Background */
+
+body{
+  height:100vh;
+  background: linear-gradient(-45deg,#667eea,#764ba2,#6dd5ed,#2193b0);
+  background-size:400% 400%;
+  animation: gradientBG 12s ease infinite;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+@keyframes gradientBG{
+  0%{
+    background-position:0% 50%;
+  }
+  50%{
+    background-position:100% 50%;
+  }
+  100%{
+    background-position:0% 50%;
+  }
+}
+
+/* Container */
+
+.container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+/* Glass Card */
+
+.card{
+  background:rgba(255,255,255,0.15);
+  padding:40px;
+  border-radius:20px;
+  text-align:center;
+  width:320px;
+  box-shadow:0 15px 40px rgba(0,0,0,0.3);
+  color:white;
+}
+
+/* Title */
+
+.title{
+  font-size:28px;
+  margin-bottom:20px;
+}
+
+/* Counter */
+
+.count{
+  font-size:60px;
+  margin:20px 0;
+}
+
+/* Buttons */
+
+.buttons{
+  display:flex;
+  gap:10px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.btn{
+  padding:10px 18px;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+/* Button Colors */
+
+.increase{
+  background:#00c853;
+  color:white;
+}
+
+.decrease{
+  background:#ff5252;
+  color:white;
+}
+
+.reset{
+  background:#2979ff;
+  color:white;
+}
+
+/* Hover */
+
+.btn:hover{
+  transform:scale(1.1);
+  box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Footer */
+
+.footer{
+  margin-top:20px;
+  font-size:14px;
+  opacity:0.8;
+}
