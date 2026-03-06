@@ -20,3 +20,25 @@ console.log(greeet("XYZ"));
 
 //---------------------------------------------
 
+const add = (a,b) => {
+    return a+b;
+};
+console.log(add(1,2));
+
+// --------------------------------------------
+
+// const bad=(a,b)=>a+b
+
+
+// let fruits=["apple", "Mango", "Bannana"];
+
+// for(let i =0; i<fruits.length, i++) {
+//     console.log(fruits[i]);
+// }
+
+let fruits = ["apple", "Mango", "Banana"];
+
+for (let i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]);
+}
+
