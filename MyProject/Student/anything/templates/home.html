@@ -2,16 +2,23 @@
 <html>
 <head>
     <title>Home Page</title>
+</head>
 <body>
 
     <h1>Welcome to My Django Project 🚀</h1>
     <p>Server is running successfully!</p>
 
     <br><br>
+
     <a href="/admin/">Open Admin Panel</a>
-    <form method='post'>
+
+    <br><br>
+
+    <form method="post">
         {% csrf_token %}
-        <input typ 
+        <input type="text" name="name" placeholder="Enter your name">
+        <button type="submit">Submit</button>
+    </form>
 
 </body>
-</html> 
+</html>
